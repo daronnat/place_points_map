@@ -1,0 +1,30 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://add_points.gd" type="Script" id=1]
+[ext_resource path="res://map.jpg" type="Texture" id=2]
+
+[node name="add_points" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="TextureRect" type="Sprite" parent="."]
+position = Vector2( 512.544, 300.277 )
+scale = Vector2( 0.341574, 0.399049 )
+texture = ExtResource( 2 )
+
+[node name="target1" type="Position2D" parent="."]
+position = Vector2( 575.576, 181.949 )
+__meta__ = {
+"_gizmo_extents_": 100.0
+}
+
+[node name="target2" type="Position2D" parent="."]
+position = Vector2( 244.977, 260.436 )
+__meta__ = {
+"_gizmo_extents_": 100.0
+}
+
+[node name="target3" type="Position2D" parent="."]
+position = Vector2( 700.443, 411.466 )
+__meta__ = {
+"_gizmo_extents_": 100.0
+}
